@@ -12,6 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "使用仓库", Toast.LENGTH_SHORT).show();
+
+
         Log.d("MainActivity", "分支");
+
     }
 }
